@@ -4,13 +4,13 @@ import time
 from twilio.rest import Client
 
 # Twilio credentials
-account_sid = 'AC4caed3c4927192e506375c3df2380fb9'
-auth_token = '4f94211f07b2d826f85fb42b46e0521f'
-twilio_phone_number = '+18544586850'
-recipient_phone_number = '+31620911055'
+account_sid = 'YOUR_TWILIO_ACCOUNT_SID'
+auth_token = 'YOUR_TWILIO_AUTH_TOKEN'
+twilio_phone_number = 'YOUR_TWILIO_PHONE_NUMBER'
+recipient_phone_number = 'RECIPIENT_PHONE_NUMBER'
 
 # ThingSpeak parameters
-apiKey = 'OROMH4Q8MVAU2Q35'
+apiKey = 'YOUR_THINGSPEAK_API_KEY'
 tempFieldID = '1'
 humidityFieldID = '2'
 
